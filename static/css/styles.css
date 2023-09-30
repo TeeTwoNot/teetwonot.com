@@ -1,8 +1,9 @@
 body {
-    background-color: 202020;
+    background-color: #202020;
 }
 
-h1, h2 {
+h1, h3 {
     font-family: monospace;
     text-align: center;
+    color: #ffffff;
 }
