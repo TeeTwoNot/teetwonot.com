@@ -2,8 +2,18 @@ body {
     background-color: #202020;
 }
 
-h1, h3 {
+h1, p {
     font-family: monospace;
     text-align: center;
     color: #ffffff;
+}
+
+.margin-8 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 32px;
 }
