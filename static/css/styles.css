@@ -1,21 +1,40 @@
+@font-face {
+    font-family: UniSans;
+    src: url('/static/webfonts/UniSans-HeavyCAPS.otf');
+}
+
 body {
     background-color: #202020;
 }
 
-h1, p {
-    font-family: monospace;
+h1 {
     text-align: center;
     color: #ffffff;
+    font-size: 300%;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: UniSans;
+}
+
+.coming-soon {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
 
 .margin-8 {
     margin-left: 8px;
     margin-right: 8px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 32px;
 }
 
 .a-none {
