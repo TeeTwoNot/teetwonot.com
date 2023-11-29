@@ -23,11 +23,16 @@ footer {
     margin-top: 50px;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 .title {
     font-family: UniSans;
 }
 
-.coming-soon {
+.page-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
