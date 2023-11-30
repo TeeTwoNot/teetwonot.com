@@ -47,3 +47,11 @@ iframe {
 .a-none {
     text-decoration: none;
 }
+
+.zoom {
+    transition: transform .175s;
+}
+
+.zoom:hover {
+    transform: scale(1.25);
+}
