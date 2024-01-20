@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     color: #ffffff;
     font-size: 300%;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -18,9 +19,14 @@ p {
     color: #ffffff;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
 footer {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 4rem;
 }
 
 iframe {
@@ -37,6 +43,7 @@ iframe {
 .page-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    color: #ffffff;
 }
 
 .margin-8 {
