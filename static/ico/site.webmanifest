@@ -1,19 +1,19 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "TeeTwoNot",
+    "short_name": "TeeTwoNot",
     "icons": [
         {
-            "src": "/static/img/android-chrome-192x192.png",
+            "src": "/static/ico/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/static/img/android-chrome-384x384.png",
+            "src": "/static/ico/android-chrome-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#202020",
     "background_color": "#202020",
     "display": "standalone"
 }
