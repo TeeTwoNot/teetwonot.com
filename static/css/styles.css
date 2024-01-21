@@ -3,6 +3,24 @@
     src: url('/static/webfonts/UniSans-HeavyCAPS.otf');
 }
 
+@media screen and (max-width: 768px){
+    iframe {
+        margin: auto;
+        width: 448px;
+        height: 252px;
+        transition: ease all .5s;
+    }
+}
+
+@media screen and (max-width: 490px){
+    iframe {
+        margin: auto;
+        width: 320px;
+        height: 180px;
+        transition: ease all .5s;
+    }
+}
+
 body {
     background-color: #202020;
 }
@@ -36,6 +54,7 @@ iframe {
     border: 0.2em solid #ffffff;
     border-radius: 0.5em;
     background-color: #ffffff;
+    transition: ease all .5s;
 }
 
 .main-content {
