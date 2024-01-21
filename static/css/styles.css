@@ -3,11 +3,20 @@
     src: url('/static/webfonts/UniSans-HeavyCAPS.otf');
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     iframe {
         margin: auto;
         width: 448px;
         height: 252px;
+        transition: ease all .5s;
+    }
+    .grid-item {
+        max-width: 70%;
+        margin: auto;
+        transition: ease all .5s;
+    }
+    .grid-container {
+        grid-gap: 1rem;
         transition: ease all .5s;
     }
 }
@@ -17,6 +26,15 @@
         margin: auto;
         width: 320px;
         height: 180px;
+        transition: ease all .5s;
+    }
+    .grid-item {
+        max-width: 80%;
+        margin: auto;
+        transition: ease all .5s;
+    }
+    .grid-container {
+        grid-gap: 0.5rem;
         transition: ease all .5s;
     }
 }
@@ -42,6 +60,13 @@ h1 {
     margin-bottom: 1rem;
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 3rem 0 4rem;
+}
+
 p {
     text-align: center;
     color: #ffffff;
@@ -60,8 +85,7 @@ iframe {
 .main-content {
     display: block;
     margin: auto;
-    width: 720px;
-    height: 405px;
+    width: 480px;
     max-width: 100%;
     border: 0.2em solid #ffffff;
     border-radius: 0.5em;
@@ -105,6 +129,19 @@ iframe {
 
 .a-none {
     text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    margin: auto;
+    align-content: space-evenly;
+    justify-content: center;
+    grid-template: auto/ auto auto;
+    grid-gap: 2rem;
+}
+
+.grid-item {
+    margin: auto;
 }
 
 .icon-zoom {
