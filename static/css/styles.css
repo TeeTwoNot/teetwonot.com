@@ -3,6 +3,13 @@
     src: url('/static/webfonts/UniSans-HeavyCAPS.otf');
 }
 
+@media screen and (min-width: 1024px){
+    h1 {
+        font-size: 400%;
+        transition: ease all .5s;
+    }
+}
+
 @media screen and (max-width: 1024px){
     iframe {
         margin: auto;
@@ -17,6 +24,10 @@
     }
     .grid-container {
         grid-gap: 1rem;
+        transition: ease all .5s;
+    }
+    h1 {
+        font-size: 400%;
         transition: ease all .5s;
     }
 }
@@ -37,10 +48,14 @@
         grid-gap: 0.5rem;
         transition: ease all .5s;
     }
+    h1 {
+        font-size: 300%;
+        transition: ease all .5s;
+    }
 }
 
 body {
-    background-color: #202020;
+    background-image: linear-gradient(to bottom right, #202040, #00000a);
 }
 
 header {
@@ -56,7 +71,6 @@ footer {
 h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 300%;
     margin-bottom: 1rem;
 }
 
