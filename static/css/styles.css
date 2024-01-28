@@ -39,6 +39,7 @@
 }
 
 body {
+    background: #00000a;
     background-image: linear-gradient(to bottom right, #202040, #00000a);
     margin: 0;
     background-repeat: no-repeat;
