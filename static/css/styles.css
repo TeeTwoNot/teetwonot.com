@@ -1,3 +1,5 @@
+:root { scroll-behavior: smooth; }
+
 @font-face {
     font-family: UniSans;
     src: url('/static/webfonts/UniSans-HeavyCAPS.otf');
@@ -164,4 +166,27 @@ iframe {
 
 .icon-zoom:hover {
     transform: scale(1.275);
+}
+
+#scroll-top {
+    opacity: 0; /* JS-Controlled */
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #202060;
+    color: white;
+    cursor: default; /* JS-Controlled */
+    padding: 15px;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: ease all .175s;
+}
+
+#scroll-top:hover {
+    transform: scale(1.1);
+    background-color: #202070;
+    box-shadow: 2px 2px 5px inset #2020a0;
 }
