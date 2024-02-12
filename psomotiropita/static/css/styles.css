@@ -1,0 +1,16 @@
+img {
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    width: 50rem;
+  }
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
