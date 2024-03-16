@@ -29,91 +29,19 @@
     src: url('/static/webfonts/UniSans-HeavyCAPS.otf');
 }
 
-@media screen and (min-width: 1024px){
-    h1 {
-        font-size: 400%;
-        transition: ease all .5s;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    iframe {
-        margin: auto;
-        width: 448px;
-        height: 252px;
-        transition: ease all .5s;
-    }
-    h1 {
-        font-size: 400%;
-        transition: ease all .5s;
-    }
-}
-
-@media screen and (max-width: 490px){
-    iframe {
-        margin: auto;
-        width: 320px;
-        height: 180px;
-        transition: ease all .5s;
-    }
-    h1 {
-        font-size: 300%;
-        transition: ease all .5s;
-    }
-}
-
 a {
     color: #ffb517;
-}
-
-.centered {
-    float: none;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-ul {
-    list-style-type: none;
-    margin: 2.5rem 0 0 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fffcf5;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: ease all .175s;
-}
-
-li a:hover {
-    background-color: #fde9be;
-}
-
-.active {
-    text-decoration: underline;
 }
 
 blockquote {
     font-family: Garamond, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: x-large;
-    padding: 3rem 15rem 0 15rem;
+    font-size: 2vw;
+    padding: 0 15vw 0 15vw;
 }
 
 body {
     background-color: #fffcf5;
-    padding: 0 25rem 0 25rem;
 }
 
 header {
@@ -128,7 +56,9 @@ footer {
 h1 {
     text-align: center;
     color: #ffffff;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    font-family: UniSans, Geneva, Tahoma, sans-serif;
+    font-size: 7vw;
 }
 
 h2 {
