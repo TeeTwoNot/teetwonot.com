@@ -21,3 +21,8 @@ function topFunc() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+var audio = new Audio("tick.wav");
+audio.oncanplaythrough = function(){
+  audio.play();
+}
