@@ -7,7 +7,8 @@
 
 @media screen and (min-width: 1024px){
     h1 {
-        font-size: 400%;
+        margin: 2rem 0 0 0;
+        font-size: 500%;
         transition: ease all .5s;
     }
 }
@@ -20,6 +21,7 @@
         transition: ease all .5s;
     }
     h1 {
+        margin: 1rem 0 0 0;
         font-size: 400%;
         transition: ease all .5s;
     }
