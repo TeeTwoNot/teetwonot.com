@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Loading...</title>
+    <title>TeeTwoNot</title>
 
     <!-- METADATA -->
     <meta charset="UTF-8" />
@@ -31,13 +31,13 @@
     <meta name="url" content="https://teetwonot.com" property="og:url" />
     <meta name="theme-color" content="#202020" property="og:theme-color" />
     <meta name="keywords" content="TeeTwoNot, TimelessOn15Hz, Timeless" property="og:keywords" />
-    <meta name="description" content="The official TeeTwoNot website." property="og:description" />
+    <meta name="description" content="Currently loading..." property="og:description" />
     <meta name="type" content="website" property="og:type" />
 
     <!-- TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Loading..." />
-    <meta name="twitter:description" content="..." />
+    <meta name="twitter:title" content="TeeTwoNot" />
+    <meta name="twitter:description" content="Currently loading..." />
     <meta name="twitter:image" content="/static/ico/twitter-card.png" />
     <meta name="twitter:image:alt" content="TeeTwoNot logo" />
 
@@ -66,34 +66,11 @@
         </a>
     </header>
     <main>
-        <div style="background-color: black; padding: 2rem 0 2rem 0; font-family: Arial, Helvetica, sans-serif; font-size: x-large; margin: 0 0 3rem 0;">
+        <div style="background-color: #050302; padding: 2rem 0 2rem 0; font-family: Arial, Helvetica, sans-serif; font-size: x-large; margin: 0 0 3rem 0;">
             <p>Loading...</p>
             <p id="cntdn"></p>
+            <p><a class="announce" href="https://www.youtube.com/post/UgkxPHjkD29uY3aXhPsbJ6JHAK2dZ8BVnNdn">UFJPSkVDVCBBKg==</a></p>
         </div>
-        <script>
-            var start = new Date("Mar 17, 2024 13:00:00").getTime();
-            var end = new Date("Jul 28, 2024 20:28:28").getTime();
-            // Update countdown every 1 second
-            var x = setInterval(function () {
-                // Get today's date and time
-                var now = new Date().getTime();
-                // Find distance between now and countdown date
-                var distance = end - now;
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                // Output result in element id="cntdn"
-                document.getElementById("cntdn").innerHTML = days + "d " + hours + "h "
-                    + minutes + "m " + seconds + "s ";
-                // If countdown over, write text
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("cntdn").innerHTML = "TIMER EXPIRED, PLEASE WAIT...";
-                }
-            }, 1000);
-        </script>
         <p class="page-text">Latest Video</p>
         <iframe width="720" height="405" src="https://www.youtube-nocookie.com/embed/tO80nIzMg68"
             title="YouTube Video Player"
@@ -115,9 +92,8 @@
     </main>
     <footer>
         <img class="mini-logo" src="/static/ico/android-chrome-192x192.png" alt="TeeTwoNot Mini Logo">
-        <p class="page-text">© TeeTwoNot | 2023 - 2024 </a>
-        <p class="mini-page-text">timeless /ˈtʌɪmləs/ adj. not affected by the passage of time or changes in fashion.
-        </p>
+        <p class="page-text">© TeeTwoNot | 2023 - 2024 </p>
+        <p class="mini-page-text">timeless /ˈtʌɪmləs/ adj. not affected by the passage of time or changes in fashion.</p>
     </footer>
 </body>
 <!-- SCRIPTS (AFTER PAGE LOAD) -->

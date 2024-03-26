@@ -145,6 +145,15 @@ iframe {
     align-items: center;
 }
 
+.announce { 
+    color: #ccc; 
+}
+
+.announce:hover {
+    color: red;
+    transition: ease all .2s;
+}
+
 #item1 {
     margin: auto;
     grid-column: 1 / 2;
